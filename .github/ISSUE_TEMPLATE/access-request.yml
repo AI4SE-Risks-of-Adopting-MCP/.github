@@ -1,0 +1,64 @@
+name: Access Request
+description: Request access to the private BankingMCP, BankingAPI, or FinanceNewsMCP repositories.
+title: "[Access Request] "
+labels: ["access-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete this form to request access to the private artifact repositories.
+        Access is granted to researchers, security practitioners, and conference reviewers with a legitimate use case.
+        We aim to respond within 5 business days.
+
+  - type: input
+    id: name-affiliation
+    attributes:
+      label: Name and Institutional Affiliation
+      description: Your full name and the organization or institution you represent.
+      placeholder: "e.g. Jane Smith, University of Example / Example Security GmbH"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      description: Select the role that best describes your request context.
+      options:
+        - Conference / Journal Reviewer
+        - Academic Researcher
+        - Security Practitioner
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: repos
+    attributes:
+      label: Which repositories do you need access to?
+      description: Select all that apply.
+      options:
+        - label: "`BankingMCP`"
+        - label: "`BankingAPI`"
+        - label: "`FinanceNewsMCP` — attacker-controlled MCP server (tool poisoning artifact)"
+
+  - type: textarea
+    id: intended-use
+    attributes:
+      label: Intended Use
+      description: Briefly describe why you need access and how you plan to use the artifacts.
+      placeholder: "e.g. Reproducing the attack scenario for a security evaluation / extending the benchmark for our own MCP safety study"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Responsible Use Agreement
+      options:
+        - label: >
+            I agree to use these artifacts only for academic research, security evaluation,
+            or defensive purposes. I will not deploy FinanceNewsMCP or derivatives against
+            real users or systems without authorization. I will credit the authors in any
+            published work that builds on these artifacts.
+          required: true

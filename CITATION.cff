@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use these artifacts, please cite the following paper."
+type: software
+title: "Managing the Risks of Adopting the Model Context Protocol — Demo Artifacts"
+abstract: >
+  Research artifacts for the paper "Managing the Risks of Adopting the Model
+  Context Protocol". Includes the public landing page, attack sequence diagram,
+  and demo video. Private repositories (BankingMCP, BankingAPI, FinanceNewsMCP)
+  are available on request.
+authors:
+  - family-names: Dyballa
+    given-names: Hannes
+    affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+  - family-names: Hartenstein
+    given-names: Sandro
+    affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+  - family-names: Rymar
+    given-names: Ben
+    affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+  - family-names: Schmietendorf
+    given-names: Andreas
+    affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+  - family-names: Schwips
+    given-names: Peter
+    affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+repository-code: "https://github.com/organizations/AI4SE-Risks-of-Adopting-MCP/.github"
+license: CC-BY-4.0  # Applies to the public artifacts (documentation, diagrams) in this repo only; private repos carry separate research-use-only terms
+date-released: "2026-08-01"
+keywords:
+  - "Model Context Protocol"
+  - "MCP"
+  - "tool poisoning"
+  - "prompt injection"
+  - "LLM agents"
+  - "AI security"
+  - "governance"
+preferred-citation:
+  type: conference-paper
+  title: "Managing the Risks of Adopting the Model Context Protocol"
+  authors:
+    - family-names: Dyballa
+      given-names: Hannes
+      affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+    - family-names: Hartenstein
+      given-names: Sandro
+      affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+    - family-names: Rymar
+      given-names: Ben
+      affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+    - family-names: Schmietendorf
+      given-names: Andreas
+      affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+    - family-names: Schwips
+      given-names: Peter
+      affiliation: "Berlin School of Economics and Law (HWR Berlin)"
+  collection-title: >
+    Proceedings of the AI for Software Engineering Workshop (AI4SE 2026)
+    at the 49th German Conference on Artificial Intelligence (KI 2026)
+  year: 2026
+  month: 8
+  location:
+    name: Bremen, Germany
+  # Update with DOI once proceedings are published:
+  # doi: "10.xxxx/xxxxx"
