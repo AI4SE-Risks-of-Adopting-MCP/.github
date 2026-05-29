@@ -67,7 +67,7 @@ Access to the private repositories is available to:
 - Conference and journal reviewers during the review period
 - Security practitioners with a legitimate defensive use case
 
-To request access, [open an access request issue](../../issues/new?template=access-request.yml). Please describe your affiliation and intended use. We aim to respond within 5 business days.
+To request access, [open an access request issue](../../../issues/new?template=access-request.yml). Please describe your affiliation and intended use. We aim to respond within 5 business days.
 
 ---
 
@@ -87,7 +87,7 @@ To request access, [open an access request issue](../../issues/new?template=acce
 }
 ``` -->
 
-A machine-readable citation is also available via [CITATION.cff](CITATION.cff) — GitHub renders a "Cite this repository" button on the repo page.
+A machine-readable citation is also available via [CITATION.cff](../CITATION.cff) — GitHub renders a "Cite this repository" button on the repo page.
 
 ---
 
@@ -101,7 +101,7 @@ The attack demonstrated here is real and reproducible. The private repositories 
 - The artifact carries a do-not-deploy notice.
 - This is a responsible demonstration of a documented vulnerability class, not a novel zero-day.
 
-See [SECURITY.md](SECURITY.md) for the full responsible disclosure statement.
+See [SECURITY.md](../SECURITY.md) for the full responsible disclosure statement.
 
 ---
 
