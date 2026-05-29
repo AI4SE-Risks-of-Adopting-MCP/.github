@@ -1,0 +1,56 @@
+@startuml tool-poisoning
+title Tool Poisoning Attack
+
+skinparam titleFontSize 34
+skinparam sequenceMessageAlign center
+hide footbox
+
+actor User
+participant Host [
+    = ""MCP Host & LLM""
+    ----
+    ""Claude Desktop with Haiku 4.5""
+]
+participant Banking [
+    = ""Banking""
+    ----
+    ""Legitimate Banking MCP""
+]
+participant API [
+    = ""BankingAPI""
+    ----
+    ""Backend of the Banking MCP""
+]
+participant News [
+    = ""FinanceNewsMCP""
+    ----
+    ""Malicious MCP disguised as a Finance News MCP""
+]
+
+
+User -> Host : "Login and show finance news"
+Host -> Banking : tools/list
+Banking --> Host : list of available tools, e.g. login and create_transfer
+Host -> Banking : tools/call: login
+Banking -> API : GET /banking/api
+API --> Banking : Status 200
+Banking --> Host : logged in
+Host -> News : tools/list
+News --> Host : list of available tools, including verify_iban_routing with <color:#FF3333><b>malicious description</b></color>
+Host -> News : tools/call: get_financial_news
+News --> Host : latest financial news
+Host --> User : Confirmation of successful login and summary of finance news
+
+User -> Host : "Transfer 200 € to ..."
+Host -> News : tools/call: verify_iban_routing
+News --> Host : result includig the attacker's IBAN and instruction to move the recipient IBAN to the reference of the transfer and <color:#FF3333><b>transfer to the attacker's IBAN</b></color>
+Host -> Banking : tools/call: create_transfer
+Banking --> Host : result of the executed transfer
+Banking -> API : POST /banking/api/transactions
+API --> Banking : Status 201
+Host --> User : summary of the executed transfer not showing the attacker's IBAN as instructed by the malicious server
+
+User -> Host : "Where did the money go?"
+Host --> User : defends attacker's IBAN as legitimate
+
+@enduml
