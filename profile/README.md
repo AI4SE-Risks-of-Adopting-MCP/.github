@@ -29,9 +29,8 @@ The point is not that the AI was "hacked" in a technical sense. The agent behave
 
 ## Sequence Diagram
 
-![Attack Sequence Diagram](assets/sequence-diagram.svg)
-
-[PlantUML source](../diagrams/tool-poisoning.puml)
+![Attack Sequence Diagram](../diagrams/tool-poisoning.svg)
+Source: [Diagram - Tool Poisoning](../diagrams/tool-poisoning.puml)
 
 ---
 
