@@ -31,13 +31,13 @@ The point is not that the AI was "hacked" in a technical sense. The agent behave
 
 ![Attack Sequence Diagram](assets/sequence-diagram.svg)
 
-[PlantUML source](assets/sequence-diagram.puml)
+[PlantUML source](../diagrams/tool-poisoning.puml)
 
 ---
 
 ## Demo Video
 
-> **Video will be available here once uploaded to GitHub Releases.**
+https://github.com/AI4SE-Risks-of-Adopting-MCP/.github/blob/main/demo/tool-poisoning.mp4
 
 <!-- After uploading, replace this block with:
 [Watch the demo →](https://github.com/organizations/AI4SE-Risks-of-Adopting-MCP/.github/releases/tag/v1.0-demo)
