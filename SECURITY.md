@@ -29,6 +29,6 @@ By requesting access to the private repositories, users agree to:
 For security-related questions about these artifacts, please contact:
 
 <!-- Replace with the authors' contact email -->
-**[contact email — to be filled in by authors]**
+**<s_rymar23@stud.hwr-berlin.de>**
 
 For access requests, use the [issue template](../../issues/new?template=access-request.yml).
