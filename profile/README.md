@@ -71,26 +71,6 @@ To request access, [open an access request issue](../../../issues/new?template=a
 
 ---
 
-## Citation
-
-<!-- ```bibtex
-@inproceedings{dyballa2026mcp,
-  title     = {Managing the Risks of Adopting the Model Context Protocol},
-  author    = {Dyballa, Hannes and Hartenstein, Sandro and Rymar, Ben
-               and Schmietendorf, Andreas and Schwips, Peter},
-  booktitle = {Proceedings of the AI for Software Engineering Workshop (AI4SE 2026)
-               at the 49th German Conference on Artificial Intelligence (KI 2026)},
-  year      = {2026},
-  address   = {Bremen, Germany},
-  month     = aug,
-  note      = {Artifacts available at https://github.com/organizations/AI4SE-Risks-of-Adopting-MCP}
-}
-``` -->
-
-A machine-readable citation is also available via [CITATION.cff](../CITATION.cff) — GitHub renders a "Cite this repository" button on the repo page.
-
----
-
 ## Ethics and Responsible Disclosure
 
 The attack demonstrated here is real and reproducible. The private repositories contain working code and are access-gated intentionally to prevent misuse.
