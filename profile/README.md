@@ -69,6 +69,20 @@ Access to the private repositories is available to:
 
 To request access, [open an access request issue](../../../issues/new?template=access-request.yml). Please describe your affiliation and intended use. We aim to respond within 5 business days.
 
+
+---
+
+## Citation
+
+```bibtex
+@inproceedings{dyballa2026mcp,
+  [...]
+  note      = {Artifacts available at https://github.com/organizations/AI4SE-Risks-of-Adopting-MCP}
+}
+```
+
+A machine-readable citation is also available via [CITATION.cff](../CITATION.cff) — GitHub renders a "Cite this repository" button on the repo page.
+
 ---
 
 ## Ethics and Responsible Disclosure
