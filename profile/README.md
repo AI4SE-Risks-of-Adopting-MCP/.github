@@ -7,7 +7,7 @@
 > AI for Software Engineering Workshop (AI4SE 2026), 49th German Conference on Artificial Intelligence, August 11–14, 2026, Bremen
 
 <!-- Replace this badge once the OpenReview submission is live -->
-![Submission status](https://img.shields.io/badge/status-under%20review-yellow)
+![Submission status](https://img.shields.io/badge/Status-Reviewed-green)
 
 ---
 
