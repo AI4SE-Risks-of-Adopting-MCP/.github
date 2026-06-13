@@ -36,7 +36,8 @@ Source: [Diagram - Tool Poisoning](../diagrams/tool-poisoning.drawio.svg)
 
 ## Demo Video
 
-https://github.com/AI4SE-Risks-of-Adopting-MCP/.github/blob/main/demo/tool-poisoning.mp4
+https://github.com/user-attachments/assets/97dc9ab2-4787-4e0f-b090-0ef10a6f394d
+
 
 <!-- After uploading, replace this block with:
 [Watch the demo →](https://github.com/organizations/AI4SE-Risks-of-Adopting-MCP/.github/releases/tag/v1.0-demo)
@@ -68,26 +69,6 @@ Access to the private repositories is available to:
 - Security practitioners with a legitimate defensive use case
 
 To request access, [open an access request issue](../../../issues/new?template=access-request.yml). Please describe your affiliation and intended use. We aim to respond within 5 business days.
-
----
-
-## Citation
-
-<!-- ```bibtex
-@inproceedings{dyballa2026mcp,
-  title     = {Managing the Risks of Adopting the Model Context Protocol},
-  author    = {Dyballa, Hannes and Hartenstein, Sandro and Rymar, Ben
-               and Schmietendorf, Andreas and Schwips, Peter},
-  booktitle = {Proceedings of the AI for Software Engineering Workshop (AI4SE 2026)
-               at the 49th German Conference on Artificial Intelligence (KI 2026)},
-  year      = {2026},
-  address   = {Bremen, Germany},
-  month     = aug,
-  note      = {Artifacts available at https://github.com/organizations/AI4SE-Risks-of-Adopting-MCP}
-}
-``` -->
-
-A machine-readable citation is also available via [CITATION.cff](../CITATION.cff) — GitHub renders a "Cite this repository" button on the repo page.
 
 ---
 
