@@ -36,9 +36,8 @@ Source: [Diagram - Tool Poisoning](../diagrams/tool-poisoning.puml)
 
 ## Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/UY7Vlc_A5zQ/0.jpg)](https://youtu.be/UY7Vlc_A5zQ)
+https://github.com/user-attachments/assets/97dc9ab2-4787-4e0f-b090-0ef10a6f394d
 
-https://github.com/AI4SE-Risks-of-Adopting-MCP/.github/blob/main/demo/tool-poisoning.mp4
 
 <!-- After uploading, replace this block with:
 [Watch the demo →](https://github.com/organizations/AI4SE-Risks-of-Adopting-MCP/.github/releases/tag/v1.0-demo)
