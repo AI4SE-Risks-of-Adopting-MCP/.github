@@ -36,7 +36,7 @@ Source: [Diagram - Tool Poisoning](../diagrams/tool-poisoning.drawio.png)
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/97dc9ab2-4787-4e0f-b090-0ef10a6f394d
+<https://github.com/user-attachments/assets/97dc9ab2-4787-4e0f-b090-0ef10a6f394d>
 
 ---
 
@@ -45,10 +45,10 @@ https://github.com/user-attachments/assets/97dc9ab2-4787-4e0f-b090-0ef10a6f394d
 This organization contains four repositories. Only this one is public. The others are available to researchers and reviewers upon request.
 
 | Repository | Visibility | Description |
-|---|---|---|
+| --- | --- | --- |
 | `.github` | Public | This landing page, sequence diagram, citation |
 | `BankingMCP` | Private | Legitimate banking MCP server |
-| `BankingAPI` | Private | Backend Banking API  |
+| `BankingAPI` | Private | Backend Banking API |
 | `FinanceNewsMCP` | Private | Attacker-controlled MCP server — the tool poisoning artifact |
 
 ---
@@ -56,6 +56,7 @@ This organization contains four repositories. Only this one is public. The other
 ## Requesting Access
 
 Access to the private repositories is available to:
+
 - Academic researchers working on MCP security, LLM agent safety, or related topics
 - Conference and journal reviewers during the review period
 - Security practitioners with a legitimate defensive use case
@@ -69,6 +70,7 @@ To request access, [open an access request issue](../../../issues/new?template=a
 The attack demonstrated here is real and reproducible. The private repositories contain working code and are access-gated intentionally to prevent misuse.
 
 **Important caveats:**
+
 - All IBANs used in the demo are synthetic and non-functional.
 - PSD3 Art. 17b is fabricated — it does not exist in any EU payment directive.
 - The artifact carries a do-not-deploy notice.
