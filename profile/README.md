@@ -38,14 +38,6 @@ Source: [Diagram - Tool Poisoning](../diagrams/tool-poisoning.drawio.png)
 
 https://github.com/user-attachments/assets/97dc9ab2-4787-4e0f-b090-0ef10a6f394d
 
-
-<!-- After uploading, replace this block with:
-[Watch the demo →](https://github.com/organizations/AI4SE-Risks-of-Adopting-MCP/.github/releases/tag/v1.0-demo)
-
-The recording shows the full end-to-end attack: the user's transfer request, the agent's tool calls, the balance deduction, and the agent defending the
-attacker IBAN under direct questioning.
--->
-
 ---
 
 ## Repository Structure
