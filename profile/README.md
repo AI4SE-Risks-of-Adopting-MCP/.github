@@ -29,7 +29,7 @@ The point is not that the AI was "hacked" in a technical sense. The agent behave
 
 ## Sequence Diagram
 
-![Attack Sequence Diagram](../diagrams/tool-poisoning.drawio.svg)
+![Attack Sequence Diagram](../diagrams/tool-poisoning.drawio.png)
 Source: [Diagram - Tool Poisoning](../diagrams/tool-poisoning.drawio.png)
 
 ---
